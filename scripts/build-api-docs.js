@@ -2,7 +2,6 @@ const fs = require('fs');
 const path = require('path');
 const rimraf = require('rimraf');
 const TypeDoc = require('typedoc');
-const { transpileModule } = require('typescript');
 const { execSync } = require('child_process');
 
 // Where to generate the API docs
@@ -17,7 +16,7 @@ const gitRemote = execSync('git remote -v', { encoding: 'utf-8' })
   .find(
     ([_name, description]) =>
       description === 'git@github.com:ardatan/graphql-tools.git (fetch)' ||
-      description === 'https://github.com/ardatan/graphql-tools (fetch)'
+      description === 'https://github.com/ardatan/graphql-tools.git (fetch)'
   );
 const gitRemoteName = gitRemote && gitRemote[0];
 if (!gitRemoteName) {

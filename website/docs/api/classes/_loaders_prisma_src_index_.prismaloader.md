@@ -62,7 +62,7 @@ ___
 
 *Inherited from [UrlLoader](_loaders_url_src_index_.urlloader).[buildSubscriber](_loaders_url_src_index_.urlloader.md#buildsubscriber)*
 
-*Defined in [packages/loaders/url/src/index.ts:134](https://github.com/ardatan/graphql-tools/blob/master/packages/loaders/url/src/index.ts#L134)*
+*Defined in [packages/loaders/url/src/index.ts:136](https://github.com/ardatan/graphql-tools/blob/master/packages/loaders/url/src/index.ts#L136)*
 
 **Parameters:**
 
@@ -119,7 +119,7 @@ ___
 
 *Inherited from [UrlLoader](_loaders_url_src_index_.urlloader).[getExecutorAndSubscriber](_loaders_url_src_index_.urlloader.md#getexecutorandsubscriber)*
 
-*Defined in [packages/loaders/url/src/index.ts:147](https://github.com/ardatan/graphql-tools/blob/master/packages/loaders/url/src/index.ts#L147)*
+*Defined in [packages/loaders/url/src/index.ts:149](https://github.com/ardatan/graphql-tools/blob/master/packages/loaders/url/src/index.ts#L149)*
 
 **Parameters:**
 
@@ -138,7 +138,7 @@ ___
 
 *Inherited from [UrlLoader](_loaders_url_src_index_.urlloader).[getSubschemaConfig](_loaders_url_src_index_.urlloader.md#getsubschemaconfig)*
 
-*Defined in [packages/loaders/url/src/index.ts:214](https://github.com/ardatan/graphql-tools/blob/master/packages/loaders/url/src/index.ts#L214)*
+*Defined in [packages/loaders/url/src/index.ts:216](https://github.com/ardatan/graphql-tools/blob/master/packages/loaders/url/src/index.ts#L216)*
 
 **Parameters:**
 
@@ -176,7 +176,7 @@ ___
 
 *Inherited from [UrlLoader](_loaders_url_src_index_.urlloader).[loadSync](_loaders_url_src_index_.urlloader.md#loadsync)*
 
-*Defined in [packages/loaders/url/src/index.ts:234](https://github.com/ardatan/graphql-tools/blob/master/packages/loaders/url/src/index.ts#L234)*
+*Defined in [packages/loaders/url/src/index.ts:236](https://github.com/ardatan/graphql-tools/blob/master/packages/loaders/url/src/index.ts#L236)*
 
 **Returns:** *never*
 

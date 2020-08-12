@@ -5,7 +5,7 @@ sidebar_label: "UrlLoader"
 ---
 
 This loader loads a schema from a URL. The loaded schema is a fully-executable,
-remote schema since it's created using [@graphql-tools/wrap](remote-schemas).
+remote schema since it's created using [@graphql-tools/wrap](/docs/remote-schemas).
 
 ```
 const schema = await loadSchema('http://localhost:3000/graphql', {
@@ -67,7 +67,7 @@ ___
 
 ▸ **buildSubscriber**(`pointer`: string, `webSocketImpl`: typeof w3cwebsocket): *Subscriber*
 
-*Defined in [packages/loaders/url/src/index.ts:134](https://github.com/ardatan/graphql-tools/blob/master/packages/loaders/url/src/index.ts#L134)*
+*Defined in [packages/loaders/url/src/index.ts:136](https://github.com/ardatan/graphql-tools/blob/master/packages/loaders/url/src/index.ts#L136)*
 
 **Parameters:**
 
@@ -118,7 +118,7 @@ ___
 
 ▸ **getExecutorAndSubscriber**(`pointer`: [SchemaPointerSingle](../modules/_utils_src_index_.md#schemapointersingle), `options`: [LoadFromUrlOptions](/docs/api/interfaces/_loaders_url_src_index_.loadfromurloptions)): *Promise‹object›*
 
-*Defined in [packages/loaders/url/src/index.ts:147](https://github.com/ardatan/graphql-tools/blob/master/packages/loaders/url/src/index.ts#L147)*
+*Defined in [packages/loaders/url/src/index.ts:149](https://github.com/ardatan/graphql-tools/blob/master/packages/loaders/url/src/index.ts#L149)*
 
 **Parameters:**
 
@@ -135,7 +135,7 @@ ___
 
 ▸ **getSubschemaConfig**(`pointer`: [SchemaPointerSingle](../modules/_utils_src_index_.md#schemapointersingle), `options`: [LoadFromUrlOptions](/docs/api/interfaces/_loaders_url_src_index_.loadfromurloptions)): *Promise‹object›*
 
-*Defined in [packages/loaders/url/src/index.ts:214](https://github.com/ardatan/graphql-tools/blob/master/packages/loaders/url/src/index.ts#L214)*
+*Defined in [packages/loaders/url/src/index.ts:216](https://github.com/ardatan/graphql-tools/blob/master/packages/loaders/url/src/index.ts#L216)*
 
 **Parameters:**
 
@@ -152,7 +152,7 @@ ___
 
 ▸ **load**(`pointer`: [SchemaPointerSingle](../modules/_utils_src_index_.md#schemapointersingle), `options`: [LoadFromUrlOptions](/docs/api/interfaces/_loaders_url_src_index_.loadfromurloptions)): *Promise‹[Source](/docs/api/interfaces/_utils_src_index_.source)›*
 
-*Defined in [packages/loaders/url/src/index.ts:223](https://github.com/ardatan/graphql-tools/blob/master/packages/loaders/url/src/index.ts#L223)*
+*Defined in [packages/loaders/url/src/index.ts:225](https://github.com/ardatan/graphql-tools/blob/master/packages/loaders/url/src/index.ts#L225)*
 
 **Parameters:**
 
@@ -169,7 +169,7 @@ ___
 
 ▸ **loadSync**(): *never*
 
-*Defined in [packages/loaders/url/src/index.ts:234](https://github.com/ardatan/graphql-tools/blob/master/packages/loaders/url/src/index.ts#L234)*
+*Defined in [packages/loaders/url/src/index.ts:236](https://github.com/ardatan/graphql-tools/blob/master/packages/loaders/url/src/index.ts#L236)*
 
 **Returns:** *never*
 
